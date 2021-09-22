@@ -1,0 +1,33 @@
+{
+    "type": "library",
+    "name": "nguyenanhung/date-helper",
+    "description": "Date & Time Helper, basic, simple and light",
+    "keywords": [
+        "helper",
+        "date",
+        "php"
+    ],
+    "homepage": "https://github.com/nguyenanhung/date-helper",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Nguyen An Hung",
+            "email": "dev@nguyenanhung.com",
+            "homepage": "https://nguyenanhung.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "nguyenanhung\\Libraries\\DateAndTime\\": "src/"
+        },
+        "files": [
+            "helpers/helpers.php"
+        ]
+    }
+}
