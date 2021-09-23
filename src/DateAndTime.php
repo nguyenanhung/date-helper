@@ -53,7 +53,7 @@ if (!class_exists('nguyenanhung\Libraries\DateAndTime\DateAndTime')) {
          * @time  : 2019-07-15 10:57
          *
          */
-        public static function expireTime($duration = 1)
+        public static function expireTime(int $duration = 1): string
         {
             try {
                 $expire     = $duration <= 1 ? new DateTime("+0 days") : new DateTime("+$duration days");
@@ -76,7 +76,7 @@ if (!class_exists('nguyenanhung\Libraries\DateAndTime\DateAndTime')) {
          * @time  : 2018-12-06 16:03
          *
          */
-        public static function generateOTPExpireTime($hour = 4)
+        public static function generateOTPExpireTime(int $hour = 4): string
         {
             $time = new DateTime('+' . $hour . ' days');
 
@@ -93,7 +93,7 @@ if (!class_exists('nguyenanhung\Libraries\DateAndTime\DateAndTime')) {
          * @copyright: 713uk13m <dev@nguyenanhung.com>
          * @time     : 09/22/2021 25:54
          */
-        public static function filterDate($inputDate = '')
+        public static function filterDate(string $inputDate = ''): array
         {
             if ($inputDate !== '') {
                 // Get date
