@@ -198,7 +198,7 @@ if (!class_exists('nguyenanhung\Libraries\DateAndTime\DateAndTime')) {
         public static function adjust($hour, $ampm)
         {
             $hour = (int) $hour;
-            $ampm = strtolower($ampm);
+            $ampm = mb_strtolower($ampm);
 
             switch ($ampm) {
                 case 'am':
@@ -338,7 +338,7 @@ if (!class_exists('nguyenanhung\Libraries\DateAndTime\DateAndTime')) {
         public static function span($remote, $local = null, $output = 'years,months,weeks,days,hours,minutes,seconds')
         {
             // Normalize output
-            $output = trim(strtolower((string) $output));
+            $output = mb_strtolower(trim((string) $output));
 
             if (!$output) {
                 // Invalid output
