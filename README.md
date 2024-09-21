@@ -1,4 +1,9 @@
-[![Latest Stable Version](http://poser.pugx.org/nguyenanhung/date-helper/v)](https://packagist.org/packages/nguyenanhung/date-helper) [![Total Downloads](http://poser.pugx.org/nguyenanhung/date-helper/downloads)](https://packagist.org/packages/nguyenanhung/date-helper) [![Latest Unstable Version](http://poser.pugx.org/nguyenanhung/date-helper/v/unstable)](https://packagist.org/packages/nguyenanhung/date-helper) [![License](http://poser.pugx.org/nguyenanhung/date-helper/license)](https://packagist.org/packages/nguyenanhung/date-helper) [![PHP Version Require](http://poser.pugx.org/nguyenanhung/date-helper/require/php)](https://packagist.org/packages/nguyenanhung/date-helper)
+[![Latest Stable Version](https://img.shields.io/packagist/v/nguyenanhung/date-helper.svg?style=flat-square)](https://packagist.org/packages/nguyenanhung/date-helper)
+[![Total Downloads](https://img.shields.io/packagist/dt/nguyenanhung/date-helper.svg?style=flat-square)](https://packagist.org/packages/nguyenanhung/date-helper)
+[![Daily Downloads](https://img.shields.io/packagist/dd/nguyenanhung/date-helper.svg?style=flat-square)](https://packagist.org/packages/nguyenanhung/date-helper)
+[![Monthly Downloads](https://img.shields.io/packagist/dm/nguyenanhung/date-helper.svg?style=flat-square)](https://packagist.org/packages/nguyenanhung/date-helper)
+[![License](https://img.shields.io/packagist/l/nguyenanhung/date-helper.svg?style=flat-square)](https://packagist.org/packages/nguyenanhung/date-helper)
+[![PHP Version Require](https://img.shields.io/packagist/dependency-v/nguyenanhung/date-helper/php)](https://packagist.org/packages/nguyenanhung/date-helper)
 
 # Date & Time Helper
 
